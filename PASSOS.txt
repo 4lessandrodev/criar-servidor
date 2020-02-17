@@ -1,0 +1,13 @@
+criar projeto 
+npm init
+
+instalar express 
+npm install express --save 
+
+Criar três variáveis para armazenar os seguintes valores
+hostname: >Nome do host o qual executará a aplicação. Default é localhost
+port: >Porta a qual será utilizada para rodar a aplicação 
+backlog: >Resposta de inicialização do servidor 
+
+Criar o listen do servidor passando as tres variáveis na ordem:
+app.listen(port, hostname, backlog());
